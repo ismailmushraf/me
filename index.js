@@ -14,7 +14,10 @@ let sliderIndex = 0;
 projects.set(0, {
     'path': "assets/calculator-app.png",
     'title': "Calculator App for FrontendMentor.io Challenge",
-    'description': "something",
+    'description': "This is a functional and beautifully designed Calculator application I've created " +
+                    "as part of a challenge from frontendmentor.io. it was very funny. and I enjoyed every " +
+                    "bit of time I took to code it. and I've learned a lot. you also must try out frontend " +
+                    "mentor. it's a great website to enhance your frontend coding skills" ,
     'github_repo': 'https://github.com/ismailmushraf/calculator-app',
     'demo': 'https://ismailmushraf.github.io/calculator-app'
 });
@@ -22,7 +25,11 @@ projects.set(0, {
 projects.set(1, {
     'path': "assets/micoder-blog.png",
     'title': "Ismail's Blog",
-    'description': "something",
+    'description': "This is my personal Blog. I took this theme from bitbrain.io. " +
+                   "This is a static website created using a liquid programming language called Jekyll. " +
+                   "I've hosted this website in GitHub Pages. as of now my blogs are published in " +
+                   "ismailmushraf.com. this one I'm not maintaining lately. But, I've learnt a lot of tools " +
+                   "and technologies while creating this.",
     'github_repo': 'https://github.com/ismailmushraf/blog',
     'demo': 'https://ismailmushraf.github.io'
 });
@@ -30,7 +37,10 @@ projects.set(1, {
 projects.set(2, {
     'path': "assets/tower-of-hanoi.png",
     'title': "The Tower of Hanoi game",
-    'description': "something",
+    'description': "When I was doing a math course from edx.org. named Effective Thinking through Mathematics " +
+                   "I was challenged to find out the puzzle behind Tower of Hanoi. So, instead of doing it in " +
+                   "which is very hard. I thought I can create this game using just HTML, CSS and JS. and it was " +
+                   "very useful. try this out." ,
     'github_repo': 'https://github.com/ismailmushraf/tower_of_hanoi',
     'demo': 'https://ismailmushraf.github.io/tower_of_hanoi'
 });

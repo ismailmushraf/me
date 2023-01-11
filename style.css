@@ -89,6 +89,7 @@ main {
     text-decoration: none;
     font-size: large;
     color: #06038D;
+    font-family: 'Permanent Marker', cursive;
 }
 
 .nav--item:hover {
@@ -102,7 +103,8 @@ main {
 
 .content {
     margin: 40px 10px;
-    height: 400px;
+    min-height: 300px;
+    max-height: 400px;
 }
 
 .content-heading {
@@ -110,13 +112,19 @@ main {
     text-align: center;
     font-family: 'Permanent Marker', cursive;
     letter-spacing: 3px;
+    color: #06038D;
 }
 
 .content-description {
     flex: 5;
-    font-family: serif;
-    font-size: 1rem;
+    font-family: 'Sofia Sans', sans-serif;
+    font-size: 1.2rem;
     margin: 0px 50px;
+    font-style: italic;
+}
+
+#about-me > .content-description {
+    text-indent: 1rem;
 }
 
 .slider {
@@ -135,6 +143,10 @@ input {
 
 label + textarea {
     display: block;
+}
+
+#social-icons-title {
+    font-family: 'Permanent Marker', cursive;
 }
 
 .social-icons {
@@ -178,6 +190,18 @@ label + textarea {
 
 footer {
     padding: 0px 75px;
+    color: #06038D;
+}
+
+#contactForm {
+    font-family: 'Permanent Marker', cursive;
+}
+
+#contactForm input {
+    font-family: 'Sofia Sans', sans-serif;
+    font-style: italic;
+    background: transparent;
+    color: #046A38;
 }
 
 .contact-form fieldset {
@@ -192,12 +216,17 @@ footer {
 }
 
 .contact-form textarea {
+    outline: none;
     border: none;
+    border-bottom: 2px solid black;
     resize: none;
+    background: transparent;
 }
 
 #project-title {
     font-size: xx-large;
+    font-family: 'Permanent Marker', cursive;
+    color: #06038D;
 }
 
 #project-title-image {
@@ -211,14 +240,14 @@ footer {
     cursor: pointer;
 }
 
-#project-title-description {
-    font-size: medium;
+#project-description {
+    font-size: large;
 }
 
 #project-demo-link {
     position: absolute;
     bottom: 10px;
-    margin-left: 140px;
+    margin-left: 160px;
 }
 
 #project-gh-link {
@@ -237,4 +266,58 @@ footer {
     background: #06038D;
     color: white;
     border: 4px solid white;
+}
+
+.education--item {
+    border-bottom: 2px solid #06038D;
+    padding-left: 10px;
+    margin: 2rem auto;
+}
+
+.institution-name {
+    font-size: 2rem;
+    font-weight: 700;
+    color: brown;
+}
+
+.degree-level {
+    font-size: 1rem;
+    color: #06038D;
+}
+
+.duration {
+    font-style: italic;
+    color: #046A38;
+}
+
+.grade {
+    font-size: 1.5rem;
+    color: goldenrod;
+}
+
+.work--item {
+    font-size: 1rem;
+    border-bottom: 2px solid #06038D;
+}
+
+.designation {
+    font-size: 2rem;
+    color: #FF671F;
+}
+
+.organization {
+    font-weight: 700;
+    text-decoration: underline;
+    color: brown;
+    font-size: 1.1em;
+}
+
+.work-period, .work-location {
+    color: #046A38;
+}
+
+.work-description {
+    font-size: 1.1rem;
+    margin-top: 10px;
+    color: #0A66C2;
 }
