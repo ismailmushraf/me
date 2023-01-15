@@ -223,6 +223,12 @@ footer {
     background: transparent;
 }
 
+#projects-title {
+    font-size: 2rem;
+    text-decoration: underline;
+    color: goldenrod;
+}
+
 #project-title {
     font-size: xx-large;
     font-family: 'Permanent Marker', cursive;
